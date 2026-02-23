@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:docs.mixpanel.com)",
+      "WebFetch(domain:github.com)",
+      "Bash(cd:*)",
+      "Bash(cd \"C:/Users/simao/PROJETOS/laravel/laravel-mixpanel\" && \"/c/Users/simao/.config/herd/bin/php.bat\" -d memory_limit=-1 \"/c/Users/simao/.config/herd/bin/composer.phar\" install 2>&1)",
+      "Bash(cd \"C:/Users/simao/PROJETOS/laravel/laravel-mixpanel\" && \"/c/Users/simao/.config/herd/bin/php.bat\" vendor/bin/phpstan analyse 2>&1)",
+      "Bash(cd \"C:/Users/simao/PROJETOS/laravel/laravel-mixpanel\" && git init && git remote add origin git@github.com:jeffersongoncalves/laravel-mixpanel.git 2>&1)",
+      "Bash(cd \"C:/Users/simao/PROJETOS/laravel/laravel-mixpanel\" && git add .editorconfig .gitattributes .gitignore .github/ CHANGELOG.md LICENSE.md README.md composer.json database/ phpstan.neon.dist phpunit.xml.dist resources/ src/ .claude/ && git commit -m \"feat: initial release - Mixpanel JavaScript SDK integration for Laravel\n\n- MixpanelServiceProvider with spatie/laravel-package-tools\n- MixpanelSettings with all Mixpanel JS SDK configuration options\n- Blade view with CDN snippet and mixpanel.init\\(\\) call\n- Settings migration with SDK defaults\n- Support for data residency \\(US, EU, India\\) via api_host\n- Proxy configuration via custom_lib_url\n- Autocapture, session recording, and heatmap settings\n- Privacy controls: opt-out by default, property blacklist, cookie settings\n- GitHub Actions: Pint, PHPStan, Changelog, Dependabot\n\nCo-Authored-By: Claude Opus 4.6 <noreply@anthropic.com>\" 2>&1)"
+    ]
+  }
+}
