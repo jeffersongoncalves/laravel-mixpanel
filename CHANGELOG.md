@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.0.1 - 2026-02-22
+
+### Bug Fix
+
+- **Fix Blade parse error**: Resolved `syntax error, unexpected token "endif"` that occurred when rendering the Mixpanel script view in Filament/Livewire layouts
+- **Extract config logic to `MixpanelSettings::toJsConfig()`**: Moved JavaScript config array construction from Blade `@php` block to a dedicated method on `MixpanelSettings`, improving code organization and testability
+- **Fix `@php` directive syntax**: Changed from inline `@php(expression)` to block `@php...@endphp` to prevent Blade compilation issues
+
 ## v1.0.0 - 2026-02-22
 
 ### Initial Release
