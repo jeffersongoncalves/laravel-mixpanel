@@ -1,3 +1,9 @@
+<div class="filament-hidden">
+
+![Laravel Mixpanel](https://raw.githubusercontent.com/jeffersongoncalves/laravel-mixpanel/master/art/jeffersongoncalves-laravel-mixpanel.png)
+
+</div>
+
 # Laravel Mixpanel
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/laravel-mixpanel.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-mixpanel)
