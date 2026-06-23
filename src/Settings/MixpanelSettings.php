@@ -72,7 +72,7 @@ class MixpanelSettings extends Settings
 
         $config['opt_out_tracking_by_default'] = $this->opt_out_tracking_by_default;
         $config['stop_utm_persistence'] = $this->stop_utm_persistence;
-        $config['record_sessions_percent'] = $this->record_sessions_percent;
+        $config['record_sessions_percent'] = max(0, min(100, $this->record_sessions_percent));
         $config['record_heatmap_data'] = $this->record_heatmap_data;
 
         return $config;
