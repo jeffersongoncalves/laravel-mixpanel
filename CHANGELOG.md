@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file.
 
+## v1.0.5 - 2026-08-01
+
+### What's Changed
+
+* build(deps): Bump actions/checkout from 6 to 7 by @dependabot[bot] in https://github.com/jeffersongoncalves/laravel-mixpanel/pull/3
+* build(deps): Bump actions/checkout from 6 to 7 by @dependabot[bot] in https://github.com/jeffersongoncalves/laravel-mixpanel/pull/4
+
+**Full Changelog**: https://github.com/jeffersongoncalves/laravel-mixpanel/compare/v1.0.4...v1.0.5
+
 ## v1.0.4 - 2026-05-23
 
 **Full Changelog**: https://github.com/jeffersongoncalves/laravel-mixpanel/compare/v1.0.3...v1.0.4
