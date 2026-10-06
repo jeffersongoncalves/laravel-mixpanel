@@ -1,6 +1,6 @@
 <div class="filament-hidden">
 
-![Laravel Mixpanel](https://raw.githubusercontent.com/jeffersongoncalves/laravel-mixpanel/master/art/jeffersongoncalves-laravel-mixpanel.png)
+![Laravel Mixpanel](https://raw.githubusercontent.com/jeffersongoncalves/laravel-mixpanel/main/art/jeffersongoncalves-laravel-mixpanel.png)
 
 </div>
 
@@ -9,7 +9,7 @@
 [![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-support-FFDD00?style=flat-square&logo=buy-me-a-coffee&logoColor=black)](https://buymeacoffee.com/jeffersongoncalves)
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/jeffersongoncalves/laravel-mixpanel.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-mixpanel)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-mixpanel/fix-php-code-style-issues.yml?branch=master&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-mixpanel/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amaster)
+[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/jeffersongoncalves/laravel-mixpanel/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/jeffersongoncalves/laravel-mixpanel/actions?query=workflow%3A"Fix+PHP+code+styling"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/jeffersongoncalves/laravel-mixpanel.svg?style=flat-square)](https://packagist.org/packages/jeffersongoncalves/laravel-mixpanel)
 
 This Laravel package seamlessly integrates the [Mixpanel JavaScript SDK](https://docs.mixpanel.com/docs/tracking-methods/sdks/javascript) into your Blade templates. Easily track user interactions, page views, and product usage directly within your Laravel application, with all configuration managed via database settings using [spatie/laravel-settings](https://github.com/spatie/laravel-settings).
